@@ -1,2 +1,10 @@
-<h1>Contact</h1>
-<p>Ini halaman Contact</P>
+@extends('layouts.app')
+
+@section('content')
+
+<div class="starter-template">
+    <h1>Contact</h1>
+    <p class="lead">Ini halaman Contact</p>
+  </div>
+  
+  @endsection
